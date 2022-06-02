@@ -61,7 +61,7 @@ namespace Deliverable2
         
                 Console.WriteLine("Here is your bill:");
         
-                Console.WriteLine("okay, you ordered" + waters + "waters, theses are no charge ");
+                Console.WriteLine("okay, you ordered" + waters + "waters, are no charge ");
                 
                 Console.WriteLine("okay, you ordered" + coffee + "coffees, this costs $" + coffeCost  + "total.");
                   
