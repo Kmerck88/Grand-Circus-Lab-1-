@@ -47,9 +47,26 @@ namespace Deliverable2
                     Console.WriteLine("We only have water or coffee. No drink for you today, I suppose");
 
                 }
+                
             }
-
-
+        
+              Console.WriteLine("okay, so that's " + waters + "waters and " + coffees + "coffees. I will be right back, you may go your food at any time. " );
+        
+              Console.WriteLine("");
+        
+        
+                double coffeCost = coffee * 3.00;
+                double buffetCost = partySize * 9.99; 
+                double totalCost = buffetCost + coffeeCost;
+        
+                Console.WriteLine("Here is your bill:");
+        
+                Console.WriteLine("okay, you ordered" + waters + "waters, theses are no charge ");
+                
+                Console.WriteLine("okay, you ordered" + coffee + "coffees, this costs $" + coffeeCost + "total.");
+                  
+               
+               Console.WriteLine("The total cost is $" + totalCost + ", please do not forgot the tip : ");
 
 
 
