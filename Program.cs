@@ -44,13 +44,13 @@ namespace Deliverable2
                 }
                 else
                 {
-                    Console.WriteLine("We only have water or coffee. No drink for you today, I suppose");
+                    Console.WriteLine("unfountantely, Are drinks options are only water or coffee.);
 
                 }
                 
             }
         
-              Console.WriteLine("okay, so that's " + waters + "waters and " + coffees + "coffees. I will be right back, you may go your food at any time. " );
+              Console.WriteLine("okay, so that's " + waters + "waters and " + coffee + "coffees. I will be right back, you may go your food at any time. " );
         
               Console.WriteLine("");
         
@@ -63,10 +63,10 @@ namespace Deliverable2
         
                 Console.WriteLine("okay, you ordered" + waters + "waters, theses are no charge ");
                 
-                Console.WriteLine("okay, you ordered" + coffee + "coffees, this costs $" + coffeeCost + "total.");
+                Console.WriteLine("okay, you ordered" + coffee + "coffees, this costs $" + coffeCost  + "total.");
                   
                
-               Console.WriteLine("The total cost is $" + totalCost + ", please do not forgot the tip : ");
+               Console.WriteLine("The total cost is $" + totalCost + ", please do not forgot the tip: ");
 
 
 
